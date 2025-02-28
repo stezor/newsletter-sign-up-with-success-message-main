@@ -19,18 +19,76 @@
     <main>
       <!-- Sign-up form start -->
 
-      Stay updated! Join 60,000+ product managers receiving monthly updates on:
-      Product discovery and building what matters Measuring to ensure updates
-      are a success And much more! Email address email@company.com Subscribe to
-      monthly newsletter
+      <div id="newsletter-sign-up" class="container show">
+        <div class="newsletter-sign-up__illustration"></div>
+        <div class="newsletter-sing-up__form">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul>
+            <li>
+              <span>
+                <img
+                  src="./assets/images/icon-list.svg"
+                  alt="Check list item svg icon"
+                />
+              </span>
+              <span>Product discovery and building what matters</span>
+            </li>
+            <li>
+              <span>
+                <img
+                  src="./assets/images/icon-list.svg"
+                  alt="Check list item svg icon"
+                />
+              </span>
+              <span>Measuring to ensure updates are a success</span>
+            </li>
+            <li>
+              <span>
+                <img
+                  src="./assets/images/icon-list.svg"
+                  alt="Small circle svg icon with a checkmark within"
+                />
+              </span>
+              <span>And much more!</span>
+            </li>
+          </ul>
+          <form novalidate>
+            <div class="form-field">
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email@company.com"
+              />
+              <span></span>
+            </div>
+            <button type="submit" class="btn">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+      </div>
 
       <!-- Sign-up form end -->
 
       <!-- Success message start -->
 
-      Thanks for subscribing! A confirmation email has been sent to
-      ash@loremcompany.com. Please open it and click the button inside to
-      confirm your subscription. Dismiss message
+      <div id="success-message" class="container hide">
+        <span>
+          <img
+            src="./assets/images/icon-success.svg"
+            alt="Large circle svg icon with a checkmark within"
+          />
+        </span>
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to <b></b>. Please open it and
+          click the button inside to confirm your subscription.
+        </p>
+        <button type="button" class="btn">Dismiss message</button>
+      </div>
 
       <!-- Success message end -->
     </main>
